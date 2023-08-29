@@ -12,7 +12,10 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return const Scaffold(
       body: Center(
-        child: Text('SPLASH SCREEN'),
+        child: Text(
+          'SPLASH SCREEN',
+          style: TextStyle(color: Colors.black),
+        ),
       ),
     );
   }
